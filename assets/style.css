@@ -53,8 +53,14 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
 }
-.about-me {
 
+.about-me {
+    display: flex;
+    max-height: 400px;
+    max-width: 400px;
+    padding: 1rem 300px 1rem 1rem;
+    border: var(--c-primary) 5px solid;
+    margin: .5rem;
 }
 
 .my-works {
@@ -67,8 +73,17 @@ nav ul {
 
 .card-big {
     display: flex;
-    padding: 1rem;
+    max-height: 400px;
+    max-width: 90%;
+    padding: 1rem 300px 1rem 1rem;
+    border: var(--c-primary) 5px solid;
     margin: .5rem;
+}
+
+.card-big figure {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .card-reg {

@@ -66,12 +66,24 @@ nav ul {
 }
 
 .card-big {
+    display: flex;
     padding: 1rem;
+    margin: .5rem;
 }
 
 .card-reg {
-    padding: 1rem;
+    display: flex;
+    max-height: 200px;
+    max-width: 200px;
+    padding: 1rem 300px 1rem 1rem;
     border: var(--c-primary) 5px solid;
+    margin: .5rem;
+}
+
+.card-reg figure {
+    display: flex;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 footer {

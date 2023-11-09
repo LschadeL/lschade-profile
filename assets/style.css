@@ -1,1 +1,79 @@
+:root {
+    --c-primary: #15283a;
+    --c-light: #81edf9d8;    
+}
 
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--c-light);
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 20px;
+    background: var(--c-light);
+    max-width: 300px;
+    text-align: start;
+}
+
+.hero img {
+    width: 90vw;
+    height: 30vw;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+    padding: 30px;
+    background: var(--c-primary);
+}
+
+header div {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+nav {
+    width: 35%;
+    font-size: 1.5rem;
+    padding: 2px;
+    background: var(--c-light);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-me {
+
+}
+
+.my-works {
+
+}
+
+.works {
+    padding: 20px;
+}
+
+.card-big {
+    padding: 1rem;
+}
+
+.card-reg {
+    padding: 1rem;
+    border: var(--c-primary) 5px solid;
+}
+
+footer {
+
+}
